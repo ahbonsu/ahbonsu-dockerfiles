@@ -1,0 +1,1 @@
+sudo docker run --name test -it --rm -v /tmp/.X11-unix:/tmp/.X11-unix --privileged -e DISPLAY=unix$DISPLAY test
